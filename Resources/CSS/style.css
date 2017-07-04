@@ -1,0 +1,150 @@
+#container {
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  width: 1240px;
+  display: block;
+  font-size: 22px;
+  justify-content: center;
+  align-items: center;
+}
+
+#header {
+  width: 1230px;
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  padding-left: 10px;
+  align-items: center;
+  z-index: 20;
+  position: fixed;
+}
+
+.nav {
+  display: flex;
+  float: right;
+  height: 69px;
+  padding-left: 40px;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-align: right;
+}
+
+#teabanner {
+  height: 700px;
+  background-image: url('../tea.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+  z-index: 5;
+  width: 1160px;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+#bannertext {
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  display: block;
+  width: 1160px;
+  color: seashell;
+  z-index: 10;
+}
+
+#store {
+  margin: auto;
+  width: 1000px;
+  height: 700px;
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+#monthlytea {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+#berrytea, #rumtea, #donuts, #myrtletea, #bizarretea {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+}
+
+span {
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+}
+
+#locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url('../locations.jpg');
+  z-index: 5;
+}
+
+#locationheading {
+  padding-top: 40px;
+  display: block;
+  font-weight: bold;
+  align-items: center;
+  span: 10px;
+}
+
+#flexcontainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+#downtown, #bayside, #oakland {
+  display: block;
+  flex-basis: 280px;
+  margin: 5px 20px;
+  padding: 20px;
+  background-color: black;
+  align-items: center;
+  opacity: 1.0;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 10;
+}
+
+
+
+#footer {
+  display: block;
+  height: 200px;
+  width: auto;
+  text-align: center;
+  text-emphasis: bold;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+#copyright {
+  display: flex;
+  text-align: left;
+  margin-left: 20px;
+  align-items: center;
+
+}
